@@ -26,6 +26,8 @@ public Racional vezes(int outro){
     return new Racional(num, den);
 }
 
-
+public String toString(){
+    return num + " / " + den;
+}
 
 }
