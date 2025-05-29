@@ -25,9 +25,17 @@ public Racional vezes(int outro){
     int den = this.den * 1 ;
     return new Racional(num, den);
 }
+public Racional divisao(int div){
+    int num = this.num / div();
+    return new Racional(num, den);
+}
 
 public String toString(){
     return num + " / " + den;
+}
+
+public double toDouble(){
+    return (double)this.num/this.den;
 }
 
 }
