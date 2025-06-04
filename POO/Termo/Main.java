@@ -4,17 +4,27 @@ import java.util.*;
 
 
 
-public class main{
+public class Main{
 
 public checar(){
    int j;
    int i; 
+   for(int i = 0; i < n; i++){
+    int
+   }
 
 }
 
 public LerPalavras(){
-    Path LerPalavras = Paths.get("/POO/Termo/palavras.txt");
+String texto = Files.readString(Path.get("palavras.txt"), StandardCharsets.UTF_8);
+    Return texto();
 
+}
+
+public Entrada(){
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextLine();
+    return n;
 }
 
 
@@ -25,15 +35,6 @@ public LerPalavras(){
 
 
 
-
-
-
-
-
-public static void main(String[] args) {
-    
-
-}
 
 
 
