@@ -1,5 +1,5 @@
 package Orcamento;
-import Orcamento.Item;
+import Orcamento.item;
 
 public class Servico extends Item {
     private int tempo; // tempo em minutos
